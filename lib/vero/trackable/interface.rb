@@ -12,6 +12,10 @@ module Vero
       def identify!
         with_default_vero_context.identify!
       end
+
+      def unsubscribe!
+        with_default_vero_context.unsubscribe!
+      end
     end
   end
 end
